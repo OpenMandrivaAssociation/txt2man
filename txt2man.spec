@@ -34,3 +34,15 @@ rm -rf %buildroot
 %defattr(-, root, root)
 %{_bindir}/*
 %{_mandir}/man1/*
+
+
+%changelog
+* Sun Sep 20 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.5.5-2mdv2010.0
++ Revision: 445595
+- rebuild
+
+* Mon Dec 01 2008 Funda Wang <fundawang@mandriva.org> 1.5.5-1mdv2009.1
++ Revision: 308737
+- import txt2man
+
+
