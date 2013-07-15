@@ -1,10 +1,10 @@
 Summary:	Converts flat ASCII text to man page format
 Name:     	txt2man
-Version:	1.5.5
-Release:	%mkrel 2
+Version:	1.5.6
+Release:	1
 License:	GPLv2+
 Group:		Text tools
-Source0: 	http://mvertes.free.fr/download/%name-%version.tar.gz
+Source0: 	http://mvertes.free.fr/download/%{name}-%{version}.tar.gz
 URL:		http://mvertes.free.fr/download/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 Buildarch:	noarch
@@ -44,5 +44,6 @@ rm -rf %buildroot
 * Mon Dec 01 2008 Funda Wang <fundawang@mandriva.org> 1.5.5-1mdv2009.1
 + Revision: 308737
 - import txt2man
+
 
 
