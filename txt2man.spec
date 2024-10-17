@@ -5,7 +5,7 @@ Release:	11
 License:	GPLv2+
 Group:		Text tools
 Source0: 	http://mvertes.free.fr/download/%{name}-%{version}.tar.gz
-URL:		http://mvertes.free.fr/download/
+URL:		https://mvertes.free.fr/download/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 Buildarch:	noarch
 Requires:	gawk
